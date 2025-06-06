@@ -1,12 +1,99 @@
-# React + Vite
+# 🎓 Blockchain-Based Student-Institution Document System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a blockchain-powered React application where **students and institutions** can sign up, log in using their **Block ID**, and interact via document upload and verification.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 Student & Institution Signup/Login
+- 🆔 Unique **Block ID** generated on signup
+- 🏫 Institutions can upload files to student profiles
+- 🎓 Students can view/download their documents
+- 🖼️ Built using React + Tailwind CSS
+- 🔗 Blockchain logic with Solidity and Hardhat (coming soon)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Folder Structure
+
+my-app/
+├── src/
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── StudentSignup.jsx
+│ │ ├── StudentLogin.jsx
+│ │ ├── InstitutionSignup.jsx
+│ │ ├── InstitutionLogin.jsx
+│ │ └── ...
+│ ├── contracts/ # Solidity smart contracts
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── public/
+├── tailwind.config.js
+├── vite.config.js
+├── package.json
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/student-institution-dapp.git
+cd student-institution-dapp
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the Development Server
+bash
+Copy
+Edit
+npm run dev
+Then open http://localhost:5173 in your browser.
+
+🛠️ Tech Stack
+Frontend: React, Tailwind CSS, Vite
+
+Blockchain: Solidity, Hardhat, Ethers.js (integration ongoing)
+
+Storage: LocalStorage (for demo purposes)
+
+📌 Notes
+Each user gets a unique Block ID on signup.
+
+Block ID is used as a login credential.
+
+Future versions will include real blockchain interactions and IPFS for file storage.
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first.
+
+📄 License
+MIT
+
+📬 Contact
+Built with ❤️ by Your Name
+
+vbnet
+Copy
+Edit
+
+Let me know your project name or GitHub URL if you want it customized!
+
+
+
+
+
+
+
+
