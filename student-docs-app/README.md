@@ -75,20 +75,9 @@ Block ID is used as a login credential.
 
 Future versions will include real blockchain interactions and IPFS for file storage.
 
-🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first.
 
-📄 License
-MIT
 
-📬 Contact
-Built with ❤️ by Your Name
 
-vbnet
-Copy
-Edit
-
-Let me know your project name or GitHub URL if you want it customized!
 
 
 
